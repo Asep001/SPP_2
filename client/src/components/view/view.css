@@ -1,0 +1,53 @@
+
+
+.info{
+    height: 100%;
+    vertical-align: middle;
+    font: 20px "Trebuchet MS", "Lucida Sans";
+    text-shadow: 0 1px 0 rgba(255,255,255,.5);
+    text-align: center;
+    margin: auto auto;
+    width: 100%;
+}
+
+.zebra {
+    list-style: none;
+    padding: 0;
+  }
+  .zebra li {padding: 10px;}
+  .zebra li:nth-child(odd) {background: #E1F1FF;}
+  .zebra li:nth-child(even) {background: white;}
+
+  .info img {
+    width: 500px;
+    height: 300px;
+
+    
+}
+
+hr {
+    border: none; /* Убираем границу */
+    background-color: rgb(93, 170, 241); /* Цвет линии */
+   
+    height: 10px; /* Толщина линии */
+}
+
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+
+.buttons button{
+    width: 150px;
+    padding: .5em 2em;
+    border: 1px solid;
+    border-color: rgb(199, 199, 199);
+    border-radius: 10px;
+    transition: 0.2s;
+    margin-left: 5px;
+}
+
+.buttons button:hover{
+    cursor: pointer;
+    background: rgb(184, 184, 184);
+}
